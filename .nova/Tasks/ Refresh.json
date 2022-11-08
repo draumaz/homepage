@@ -1,0 +1,10 @@
+{
+  "actions" : {
+    "run" : {
+      "enabled" : true,
+      "script" : "cd ~\/remote-repos\/homepage\n\ngit clean -fd -x\ngit reset --hard\ngit pull"
+    }
+  },
+  "openLogOnRun" : "fail",
+  "serverName" : "draumaz.xyz"
+}
