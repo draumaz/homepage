@@ -46,14 +46,6 @@ You attack the goblin, dealing 10 damage!
 				<li>2022-11-07 - <a href="https://parcel.draumaz.xyz/butterfly/butterfly-0.16.tar.gz">butterfly-0.16.tar.gz</a></li>
 		</ul>
 	</div>
-
-	<div>
-		<h3>dependencies</h3>
-		<ul>
-			<li>autotools</li>
-			<li>ncurses</li>
-		</ul>
-	</div>
 	
 	<div>
 		<h3>source</h3>
