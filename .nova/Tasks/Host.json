@@ -2,7 +2,8 @@
   "actions" : {
     "run" : {
       "enabled" : true,
-      "script" : "#!\/bin\/sh\npython3 -m http.server 1313"
+      "script" : "python3 -m http.server 1313",
+      "shell" : "\/bin\/bash"
     }
   },
   "openLogOnRun" : "fail"
