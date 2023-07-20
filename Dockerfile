@@ -1,4 +1,4 @@
 FROM lipanski/docker-static-website:latest
-WORKDIR /src
 
-COPY src/ .
+RUN mkdir -p /src
+COPY src/ src/
