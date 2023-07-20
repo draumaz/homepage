@@ -1,4 +1,7 @@
 FROM lipanski/docker-static-website:latest
 
-RUN mkdir -p /src
-COPY src/ src/
+WORKDIR /src
+COPY src/ .
+
+RUN ls -al
+RUN ls -al src
