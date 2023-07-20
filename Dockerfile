@@ -1,9 +1,12 @@
-FROM denoland/deno:latest as base
+FROM node:18
 
 WORKDIR /app
 
+COPY package*.json .
+
+RUN npm install
+
 COPY . .
 
-RUN deno cache server.ts
-
-CMD ["run", "--allow-net", "server.ts"]
+EXPOSE 8080
+CMD ["node", "server.js"]
