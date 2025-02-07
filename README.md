@@ -1,4 +1,14 @@
-# homepage-x
+# homepage
+
+## deploy (docker-compose)
+```
+homepage:
+    container_name: homepage
+    build: https://github.com/draumaz/homepage.git#main
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+```
 
 ## refresh
 ```
