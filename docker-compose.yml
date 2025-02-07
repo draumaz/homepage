@@ -1,9 +1,0 @@
-version: '3'
-
-services:
-  homepage:
-    container_name: homepage
-    build: https://github.com/draumaz/homepage.git#main
-    restart: unless-stopped
-    ports:
-      - "8080:3000"
